@@ -14,3 +14,13 @@ function reset() {
     document.getElementById('ageInDays').remove();
 }
 
+//chalenge 2 cat generator
+function generateCat() {
+    var image = document.createElement('img');
+    var div = document.getElementById('flex-cat-gen');
+    image.src = "https://c.tenor.com/ZhfMGWrmCTcAAAAC/cute-kitty-best-kitty.gif";
+    div.appendChild(image);
+}
+
+//challenge 3 Rock Paper Scissors
+
